@@ -1,0 +1,210 @@
+body {
+  background-color: antiquewhite;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header div ol li img {
+  height: 60px;
+  width: auto;
+  border: solid 2px black;
+}
+
+header div ol {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+header div ol li p b {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 500;
+  font-style: oblique;
+  font-size: xx-large;
+}
+
+header div ol li button {
+  background-color: rgb(193, 193, 193);
+  cursor: pointer;
+  font-size: x-large;
+  font: 1em sans-serif;
+}
+footer {
+  background-image: url(./basket/foot_back.png);
+  background-size: cover;
+  padding: 100px;
+}
+footer div img {
+  height: 25px;
+  width: 22px;
+}
+
+.game button {
+  border: solid 2px gray;
+  color: gray;
+  background-color: black;
+  height: 60px;
+  width: 300px;
+  font-size: x-large;
+  border-radius: 8px;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.img img {
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+}
+
+.content {
+  color: white;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.main {
+  border: solid 5px black;
+  background-color: white;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 15px;
+}
+
+.option div button {
+  color: white;
+  background-color: black;
+}
+
+.main div ol {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.main div ol li {
+  border: solid 2px black;
+}
+
+.area {
+  height: 520px;
+  width: 450px;
+  background-image: url(./basket/black_back.jpg);
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.score {
+  height: 520px;
+  width: 450px;
+  background-color: aquamarine;
+}
+
+.level {
+  height: 520px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.button_all {
+  flex-direction: column;
+}
+
+.button {
+  color: rgb(143, 64, 7);
+  background-color: orange;
+  border: solid 2px orange;
+  width: 200px;
+}
+
+/* #level1{
+  color: rgb(95, 42, 4);
+  background-color: rgb(155, 102, 3);
+  border: solid 2px rgb(155, 102, 3);
+  width: 200px;
+}  */
+
+.level_selected {
+  color: rgb(95, 42, 4);
+  background-color: rgb(155, 102, 3);
+  border: solid 2px rgb(155, 102, 3);
+  width: 200px;
+}
+
+.bomb img,
+.mango img {
+  width: 300px;
+  height: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+  .main div ol {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+  }
+  .area {
+    height: 520px;
+    width: 330px;
+    background-image: url(./basket/black_back.jpg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  
+  .score {
+    height: 320px;
+    width: 330px;
+    background-color: aquamarine;
+  }
+  
+  .level {
+    height: 440px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+  .main {
+    border: solid 5px black;
+    background-color: white;
+    width: 360px;
+  }
+  .controler{
+    background-color: black;
+    padding-top: 35px;
+  }
+}

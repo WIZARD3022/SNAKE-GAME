@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <header>
+        <div>
+            <ol>
+                <li><img src="./basket/logo.jpeg" alt="profile_logo"></li>
+                <li><p><b>SNAKE GAME</b></p></li>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <li><button onclick="about()">About</button></li>
+                <li><button onclick="how()">How to play</button></li>
+            </ol>
+        </div>
+    </header>
+    <div class="main">
+        <div class="option">
+            <div><button onclick="play()"><span class="material-symbols-outlined">play_arrow</span>Play</button></div>
+            <div><button onclick="restart()"><span class="material-symbols-outlined">replay</span>restart</button></div>
+        </div>
+        <div>
+            <ol>
+                <li>
+                    <div class="level">
+                        <ol class="button_all">
+                            <li><button class="level_selected" id="level1" onclick="leve(1)">Level 1</button></li>
+                            <li><button class="button" id="level2" onclick="leve(2)">Level 2</button></li>
+                            <li><button class="button" id="level3" onclick="leve(3)">Level 3</button></li>
+                            <li><button class="button" id="level4" onclick="leve(4)">Level 4</button></li>
+                            <li><button class="button" id="level5" onclick="leve(5)">Level 5</button></li>
+                            <li><button class="button" id="level6" onclick="leve(6)">Level 6</button></li>
+                            <li><button class="button" id="level7" onclick="leve(7)">Level 7</button></li>
+                            <li><button class="button" id="level8" onclick="leve(8)">Level 8</button></li>
+                            <li><button class="button" id="level9" onclick="leve(9)">Level 9</button></li>
+                            <li><button class="button" id="level10" onclick="leve(10)">Level 10</button></li>
+                        </ol>
+                    </div>
+                </li>
+                <li style="border: solid 5px rgb(66, 65, 65);">
+                    <div class="area">
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="controler">
+
+                    </div>
+                    <div class="score">
+                        
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div style="text-align: center; padding: 2px;">
+            Hope you Enjoy the game
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
