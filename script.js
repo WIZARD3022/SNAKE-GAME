@@ -123,6 +123,7 @@ const cheaker = () => {
         if ((arrl1 < 0) || (arrt1 < 0) || (arrl1 > 320) || (arrt1 > 510)) {
             stop = 1;
             alert("GAME OVER!");
+            alert(`Total number of dots collected: ${score}, Number of times direction changed: ${change} and Score: ${value}`);
         }
         if ((arrl1 == random_width) && (arrt1 == random_height)) {
             score += 1;
